@@ -481,8 +481,8 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
         out_vid.write(frame)
         my_bar.progress(int((frame_num/total_frames)*100), text=progress_text)
     #cnts
-    df = pd.DataFrame({'ellipse [x , y]':cnts})
-    st.table(df)
+    # df = pd.DataFrame({'ellipse [x , y]':cnts})
+    # st.table(df)
     cadx,cady = calculate_average_deviation(cnts,10)
     # df = pd.DataFrame({'X': cadx, 'Y': cady})
 
