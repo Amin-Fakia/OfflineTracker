@@ -163,10 +163,40 @@ def write_bytesio_to_file(filename, bytesio):
     with open(filename, "wb") as outfile:
         # Copy the BytesIO stream to the output file
         outfile.write(bytesio.getbuffer())
+def calculate_deviation(values, num_frames):
+    deviations = []
+    previous_values = []
+
+    for i, value in enumerate(values):
+        if i == 0:
+            previous_values.append(value)
+            deviations.append(0)
+        elif i < num_frames:
+            if value == (0, 0):
+                deviations.append(0)
+            else:
+                deviation = ((value[0] - previous_values[-1][0])**2 + (value[1] - previous_values[-1][1])**2)**0.5
+                deviations.append(deviation)
+            previous_values.append(value)
+        else:
+            if value == (0, 0):
+                deviations.append(0)
+            else:
+                deviation_sum = 0
+                for j in range(1, num_frames + 1):
+                    deviation_sum += ((value[0] - previous_values[-j][0])**2 + (value[1] - previous_values[-j][1])**2)**0.5
+                deviation = deviation_sum / num_frames
+                deviations.append(deviation)
+            previous_values.append(value)
+            previous_values.pop(0)
+
+    return deviations
 def main():
     st.title("Video Processing with Streamlit and OpenCV")
 
     coll1, coll2 = st.columns(2)
+
+    cnts = []
 
     # Upload CSV files
     with coll1:
@@ -217,8 +247,10 @@ def main():
         
         #min_max_values= st.select_slider("Select a minimum-maximum Threshold",options=range(0,1000),value=(0,50))
         min_max_values = (0,0)
+        
         if cnt:
-            data = {"Ellipse Size":cnt[1],"Ellipse Position":cnt[0]}
+            data = {"Ellipse Size":(cnt[2],cnt[3]),"Ellipse Position":(cnt[0],cnt[1])}
+
 
             df = pd.DataFrame(data,index=(["x","y"]))
 
@@ -285,20 +317,19 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./"):
     
     # Initialize variables to hold sums of coordinates
     sum_x1, sum_y1, sum_x2, sum_y2, sum_radius = 0, 0, 0, 0, 0
-    
+
     for entry in data:
         ellipse = entry['ellipse']
-        
         # Check if the ellipse is a tuple
-        #if isinstance(ellipse, tuple):
-        x1, y1 = ellipse[0],ellipse[1]
-        x2, y2 = ellipse[2],ellipse[3]
-        radius = ellipse[4]
-        sum_x1 += x1
-        sum_y1 += y1
-        sum_x2 += x2
-        sum_y2 += y2
-        sum_radius += radius
+        if isinstance(ellipse, tuple):
+            x1, y1 = ellipse[0]
+            x2, y2 = ellipse[1]
+            radius = ellipse[2]
+            sum_x1 += x1
+            sum_y1 += y1
+            sum_x2 += x2
+            sum_y2 += y2
+            sum_radius += radius
 
     # Calculate average coordinates and radius
     average_x1 = sum_x1 / num_dicts
@@ -307,9 +338,7 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./"):
     average_y2 = sum_y2 / num_dicts
     average_radius = sum_radius / num_dicts
 
-
     average_ellipse = ((average_x1, average_y1), (average_x2, average_y2), average_radius)
-    
     summary = {"number of frames": nof, "number of frames per second": fps, "ellipse average": average_ellipse}
 
     average_heartbeat = None
@@ -328,8 +357,30 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./"):
             json.dump(summary, f)
 
     return output_path+"\summary.json"
-def is_series_of_zeros(arr):
-    return all(element == 0 for element in arr)
+def calculate_average_deviation(frame_centers, block_size):
+    average_deviations_x = []
+    average_deviations_y = []
+    num_frames = len(frame_centers)
+    
+    for i in range(0, num_frames - block_size + 1, block_size):
+        block_centers = frame_centers[i:i+block_size]
+        deviations_x = []
+        deviations_y = []
+        
+        for j in range(len(block_centers) - 1):
+            x_deviation = abs(block_centers[j+1][0] - block_centers[j][0])
+            y_deviation = abs(block_centers[j+1][1] - block_centers[j][1])
+            deviations_x.append(x_deviation)
+            deviations_y.append(y_deviation)
+        
+        average_deviation_x = sum(deviations_x) / len(deviations_x)
+        average_deviation_y = sum(deviations_y) / len(deviations_y)
+        
+        average_deviations_x.append(average_deviation_x)
+        average_deviations_y.append(average_deviation_y)
+    
+    return average_deviations_x, average_deviations_y
+
 def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file):
     st.title("Pupil and Parameter Caption")
 
@@ -341,7 +392,7 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
     blinks = 0
     frame_counter = 0
     consecutive_closed_frames = 0
-    blink_threshold = 4
+    blink_threshold = 6
     is_blinking = False
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
@@ -355,7 +406,7 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
     data_file_path = "processed_data.json"
 
     frame_metadata_list = []
-
+    cnts = []
     f"FPS: {int(fps)}, Dim: {width}x{height}, Total Frames: {total_frames}"
     ret, frame = cap.read()
     
@@ -381,6 +432,8 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
         threshold = 0.5
 
         frame_counter += 1
+        cnts.append((cnt[0],cnt[1]))
+
         # Display the result
         if prediction > threshold:
             consecutive_closed_frames = 0
@@ -399,30 +452,18 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
         if is_blinking and consecutive_closed_frames == 0:
             is_blinking = False
         
+        #print(cnt)
+        if cnt:
+            data = {"Frame#":frame_counter,"pupilDetected": True,"Ellipse_Size":cnt[1],"Ellipse_Position_center":cnt[0],"Ellipse_Angle":cnt[2],"Blinks":blinks}
+        else:
+            data = {"Frame#":frame_counter,"pupilDetected": False,"Ellipse_Size":0,"Ellipse_Position_center":0,"Ellipse_Angle":0,"Blinks":blinks}
         
-        # if not is_series_of_zeros(cnt):
-        #     #data = {"Frame#":frame_counter,"pupilDetected": True,"Ellipse_Size":cnt[1],"Ellipse_Position_center":cnt[0],"Ellipse_Angle":cnt[2],"Blinks":blinks}
-        #     # frame_metadata = {
-        #     # 'frame_number': int(cap.get(cv2.CAP_PROP_POS_FRAMES)),
-        #     # 'timestamp': cap.get(cv2.CAP_PROP_POS_MSEC),
-        #     # 'ellipse': cnt,
-        #     # "blinks": blinks
-        #     # }
-        #     print(cnt)
         frame_metadata = {
             'frame_number': int(cap.get(cv2.CAP_PROP_POS_FRAMES)),
             'timestamp': cap.get(cv2.CAP_PROP_POS_MSEC),
             'ellipse': cnt,
             "blinks": blinks
-            }
-        # else:
-        #     data = {"Frame#":frame_counter,"pupilDetected": False,"Ellipse_Size":0,"Ellipse_Position_center":0,"Ellipse_Angle":0,"Blinks":blinks}
-        # frame_metadata = {
-        #     'frame_number': int(cap.get(cv2.CAP_PROP_POS_FRAMES)),
-        #     'timestamp': cap.get(cv2.CAP_PROP_POS_MSEC),
-        #     'ellipse': cnt,
-        #     "blinks": blinks
-        # }
+        }
         frame_metadata_list.append(frame_metadata)
         # with open(data_file_path, mode, newline='') as csvfile:
         # # Specify the field names (header) for the CSV file
@@ -439,6 +480,13 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
         #     csv_writer.writerow(data)
         out_vid.write(frame)
         my_bar.progress(int((frame_num/total_frames)*100), text=progress_text)
+    #cnts
+    df = pd.DataFrame({'ellipse [x , y]':cnts})
+    st.table(df)
+    cadx,cady = calculate_average_deviation(cnts,10)
+    # df = pd.DataFrame({'X': cadx, 'Y': cady})
+
+    # st.table(df)
     out_vid.release()
     file_path = "full_data.json"
     with open(file_path, "w") as json_file:
