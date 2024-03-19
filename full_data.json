@@ -1,0 +1,4720 @@
+[
+    {
+        "frame_number": 2,
+        "timestamp": 20.0,
+        "ellipse": [
+            242.45240290890203,
+            142.76685133586332,
+            21.07126530278823,
+            16.95684935786656,
+            0.5591842982990423
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0,
+        "Velocity(y)": 0
+    },
+    {
+        "frame_number": 3,
+        "timestamp": 40.0,
+        "ellipse": [
+            242.49780067108856,
+            142.7890466091855,
+            20.725880529112857,
+            17.263870725966463,
+            0.47064592265381344
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 4,
+        "timestamp": 60.00000000000001,
+        "ellipse": [
+            242.05900854379846,
+            142.6281602538349,
+            21.208264496771665,
+            16.88100319664848,
+            0.6109167589754907
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 5,
+        "timestamp": 80.0,
+        "ellipse": [
+            242.11661737720524,
+            142.52399635683312,
+            20.93677946166058,
+            16.913647021488043,
+            0.5667018936494327
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": -0.02
+    },
+    {
+        "frame_number": 6,
+        "timestamp": 100.0,
+        "ellipse": [
+            241.85533533178307,
+            142.61864605374242,
+            21.073142349713073,
+            16.886555865429248,
+            0.48927282476481093
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 7,
+        "timestamp": 120.00000000000001,
+        "ellipse": [
+            241.9804023982884,
+            142.62324874520914,
+            20.857148870672464,
+            17.125139930520575,
+            0.5122659631609817
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 8,
+        "timestamp": 140.0,
+        "ellipse": [
+            242.50799022967985,
+            142.71858829193448,
+            21.338060143553577,
+            17.223125818705817,
+            0.5480737013715977
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.02,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 9,
+        "timestamp": 160.0,
+        "ellipse": [
+            242.48084985530815,
+            142.99702307890325,
+            21.205542986314178,
+            17.201595737966695,
+            0.5015284695898613
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 10,
+        "timestamp": 180.00000000000003,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.06,
+        "Velocity(y)": -3.02
+    },
+    {
+        "frame_number": 11,
+        "timestamp": 200.0,
+        "ellipse": [
+            242.20942099674713,
+            143.02984691691785,
+            21.363043844675655,
+            17.24314754389865,
+            0.5198597882993822
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.04,
+        "Velocity(y)": 3.02
+    },
+    {
+        "frame_number": 12,
+        "timestamp": 220.0,
+        "ellipse": [
+            242.33597321077804,
+            143.10011567635124,
+            21.227592676961,
+            17.10609853798651,
+            0.5470143992858628
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 13,
+        "timestamp": 240.00000000000003,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.04,
+        "Velocity(y)": -3.02
+    },
+    {
+        "frame_number": 14,
+        "timestamp": 260.0,
+        "ellipse": [
+            242.10101197591172,
+            143.31870824182457,
+            21.50417578800978,
+            17.06896909216422,
+            0.5037001402662787
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.04,
+        "Velocity(y)": 3.02
+    },
+    {
+        "frame_number": 15,
+        "timestamp": 280.0,
+        "ellipse": [
+            242.15392827674074,
+            143.19476245186047,
+            21.336728515453192,
+            17.046127753287028,
+            0.6090464018530076
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 16,
+        "timestamp": 300.0,
+        "ellipse": [
+            241.71523484340184,
+            143.3615573809826,
+            21.16973450635841,
+            17.05386009474678,
+            0.5280266763697169
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 17,
+        "timestamp": 320.0,
+        "ellipse": [
+            241.632261128413,
+            143.2448653300151,
+            21.16856826417849,
+            17.240206497253965,
+            0.46337096350312956
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 18,
+        "timestamp": 340.0,
+        "ellipse": [
+            241.66237110563745,
+            143.4561837387467,
+            21.16376268638882,
+            17.461233219053245,
+            0.5583927415729235
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 19,
+        "timestamp": 360.00000000000006,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.04,
+        "Velocity(y)": -3.04
+    },
+    {
+        "frame_number": 20,
+        "timestamp": 380.0,
+        "ellipse": [
+            241.57810898762202,
+            143.602224880324,
+            21.244766129886084,
+            17.266235646280386,
+            0.556299252160546
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.04,
+        "Velocity(y)": 3.04
+    },
+    {
+        "frame_number": 21,
+        "timestamp": 400.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.04,
+        "Velocity(y)": -3.04
+    },
+    {
+        "frame_number": 22,
+        "timestamp": 420.00000000000006,
+        "ellipse": [
+            241.52605780478544,
+            144.22853113046574,
+            20.992190031139923,
+            17.72840089354876,
+            0.589831140446858
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.04,
+        "Velocity(y)": 3.06
+    },
+    {
+        "frame_number": 23,
+        "timestamp": 440.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.04,
+        "Velocity(y)": -3.06
+    },
+    {
+        "frame_number": 24,
+        "timestamp": 460.0,
+        "ellipse": [
+            241.49829092347585,
+            144.36368365547798,
+            21.277069991353986,
+            17.70988798724726,
+            0.6232486904378288
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.04,
+        "Velocity(y)": 3.06
+    },
+    {
+        "frame_number": 25,
+        "timestamp": 480.00000000000006,
+        "ellipse": [
+            241.25526873918398,
+            144.19822198430944,
+            21.246854159365608,
+            17.6996103536625,
+            0.6023861014125464
+        ],
+        "blinks": 0,
+        "Velocity(x)": -0.02,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 26,
+        "timestamp": 500.0,
+        "ellipse": [
+            241.29612470526519,
+            144.13348305080964,
+            21.09168919716036,
+            18.074387220572447,
+            0.6817256669472177
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 27,
+        "timestamp": 520.0,
+        "ellipse": [
+            241.13430266544805,
+            144.440665670901,
+            21.042721961798982,
+            17.666367311633802,
+            0.585341962933299
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 28,
+        "timestamp": 540.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.06
+    },
+    {
+        "frame_number": 29,
+        "timestamp": 560.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 30,
+        "timestamp": 580.0000000000001,
+        "ellipse": [
+            241.14048092646084,
+            144.71199053510526,
+            21.372029871501105,
+            17.82471503868021,
+            0.5484821538873424
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.06
+    },
+    {
+        "frame_number": 31,
+        "timestamp": 600.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.06
+    },
+    {
+        "frame_number": 32,
+        "timestamp": 620.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 33,
+        "timestamp": 640.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 34,
+        "timestamp": 660.0,
+        "ellipse": [
+            241.43188482503686,
+            144.8695559748022,
+            21.04809938502311,
+            17.848632202794747,
+            0.5098429173897123
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.06
+    },
+    {
+        "frame_number": 35,
+        "timestamp": 680.0,
+        "ellipse": [
+            241.18391869514076,
+            144.9330675174688,
+            21.144613963270697,
+            17.80619570825314,
+            0.667269182114048
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 36,
+        "timestamp": 700.0000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.06
+    },
+    {
+        "frame_number": 37,
+        "timestamp": 720.0000000000001,
+        "ellipse": [
+            240.79961414358993,
+            144.50998357225882,
+            21.098779325055844,
+            17.749301504593145,
+            0.6858227165152715
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.06
+    },
+    {
+        "frame_number": 38,
+        "timestamp": 740.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.06
+    },
+    {
+        "frame_number": 39,
+        "timestamp": 760.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 40,
+        "timestamp": 780.0,
+        "ellipse": [
+            241.14545473308496,
+            142.29941682645804,
+            20.916217468530114,
+            16.977688560329582,
+            0.508246298082604
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.0
+    },
+    {
+        "frame_number": 41,
+        "timestamp": 800.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.0
+    },
+    {
+        "frame_number": 42,
+        "timestamp": 820.0000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 43,
+        "timestamp": 840.0000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 44,
+        "timestamp": 860.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 45,
+        "timestamp": 880.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 46,
+        "timestamp": 900.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 47,
+        "timestamp": 920.0,
+        "ellipse": [
+            240.1638242012604,
+            141.92460105687493,
+            20.467614635060894,
+            17.27331611822667,
+            0.5569441914403856
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.0
+    },
+    {
+        "frame_number": 48,
+        "timestamp": 940.0000000000001,
+        "ellipse": [
+            240.59462068679684,
+            142.26699933819563,
+            20.693721294331162,
+            17.36756050472938,
+            0.5437328533590458
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 49,
+        "timestamp": 960.0000000000001,
+        "ellipse": [
+            240.4268253320453,
+            142.2833192846676,
+            20.645533336035648,
+            17.204366342780425,
+            0.5000987930103846
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 50,
+        "timestamp": 980.0000000000001,
+        "ellipse": [
+            240.60160729682153,
+            142.18330082709147,
+            21.151320269600863,
+            17.21361058631413,
+            0.5308091177873969
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.02,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 51,
+        "timestamp": 1000.0,
+        "ellipse": [
+            240.8203433188389,
+            142.22808702684856,
+            21.10752175609942,
+            17.103623792268422,
+            0.565968371782887
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 52,
+        "timestamp": 1020.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.0
+    },
+    {
+        "frame_number": 53,
+        "timestamp": 1040.0,
+        "ellipse": [
+            240.78415622579453,
+            142.3331011641188,
+            21.073002535179366,
+            16.987342537737025,
+            0.5648572904321102
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.0
+    },
+    {
+        "frame_number": 54,
+        "timestamp": 1060.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.0
+    },
+    {
+        "frame_number": 55,
+        "timestamp": 1080.0,
+        "ellipse": [
+            240.9601972887331,
+            142.54036484118652,
+            20.550431917587236,
+            16.982108570306497,
+            0.5539294800602563
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.02
+    },
+    {
+        "frame_number": 56,
+        "timestamp": 1100.0,
+        "ellipse": [
+            240.5751296404811,
+            142.3838696354413,
+            20.62225866408424,
+            17.14384335990846,
+            0.5186178895100176
+        ],
+        "blinks": 0,
+        "Velocity(x)": -0.02,
+        "Velocity(y)": -0.02
+    },
+    {
+        "frame_number": 57,
+        "timestamp": 1120.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.0,
+        "Velocity(y)": -3.0
+    },
+    {
+        "frame_number": 58,
+        "timestamp": 1140.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 59,
+        "timestamp": 1160.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 60,
+        "timestamp": 1180.0000000000002,
+        "ellipse": [
+            241.17576186512215,
+            142.45120988468273,
+            20.189601041994656,
+            17.157006287805423,
+            0.6183327109597271
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.02
+    },
+    {
+        "frame_number": 61,
+        "timestamp": 1200.0,
+        "ellipse": [
+            241.02642110451148,
+            142.28704193992473,
+            20.878712938327403,
+            16.925321432530453,
+            0.4984847083816323
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": -0.02
+    },
+    {
+        "frame_number": 62,
+        "timestamp": 1220.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.0
+    },
+    {
+        "frame_number": 63,
+        "timestamp": 1240.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 64,
+        "timestamp": 1260.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 65,
+        "timestamp": 1280.0,
+        "ellipse": [
+            241.26489221852765,
+            142.4923537720934,
+            21.109276601420287,
+            17.09720593384526,
+            0.5902973710679698
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.02
+    },
+    {
+        "frame_number": 66,
+        "timestamp": 1300.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.02
+    },
+    {
+        "frame_number": 67,
+        "timestamp": 1320.0,
+        "ellipse": [
+            241.2422060601234,
+            142.6382288360779,
+            21.054501304619343,
+            17.27278571219211,
+            0.6141507042161366
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.02
+    },
+    {
+        "frame_number": 68,
+        "timestamp": 1340.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.02
+    },
+    {
+        "frame_number": 69,
+        "timestamp": 1360.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 70,
+        "timestamp": 1380.0000000000002,
+        "ellipse": [
+            241.4490816193814,
+            145.06550930194297,
+            17.52682365110329,
+            21.0315505673308,
+            -0.7351074204735287
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.1
+    },
+    {
+        "frame_number": 71,
+        "timestamp": 1400.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.0,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 72,
+        "timestamp": 1420.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 73,
+        "timestamp": 1440.0000000000002,
+        "ellipse": [
+            241.76749238645434,
+            145.78882206272235,
+            20.36485606390041,
+            17.725830690959782,
+            0.7275398551101147
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 74,
+        "timestamp": 1460.0,
+        "ellipse": [
+            241.39501593247866,
+            145.19688235764772,
+            17.503106555355693,
+            21.02340463429391,
+            -0.7299503383777409
+        ],
+        "blinks": 0,
+        "Velocity(x)": -0.02,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 75,
+        "timestamp": 1480.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.0,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 76,
+        "timestamp": 1500.0,
+        "ellipse": [
+            241.8028685215469,
+            145.7047862512024,
+            17.65024145290827,
+            20.689437435227937,
+            -0.7583979286694048
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.12
+    },
+    {
+        "frame_number": 77,
+        "timestamp": 1520.0,
+        "ellipse": [
+            241.78605770465308,
+            145.87325701926167,
+            20.621882650390468,
+            17.544202782621614,
+            0.764081888405042
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.04,
+        "Velocity(y)": -0.04
+    },
+    {
+        "frame_number": 78,
+        "timestamp": 1540.0,
+        "ellipse": [
+            241.71486603105922,
+            145.39633435086367,
+            17.509957137494315,
+            20.541145502620047,
+            -0.6941709558910711
+        ],
+        "blinks": 0,
+        "Velocity(x)": -0.04,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 79,
+        "timestamp": 1560.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.0,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 80,
+        "timestamp": 1580.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 81,
+        "timestamp": 1600.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 82,
+        "timestamp": 1620.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 83,
+        "timestamp": 1640.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 84,
+        "timestamp": 1660.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 85,
+        "timestamp": 1680.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 86,
+        "timestamp": 1700.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 87,
+        "timestamp": 1720.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 88,
+        "timestamp": 1740.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 89,
+        "timestamp": 1760.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 90,
+        "timestamp": 1780.0,
+        "ellipse": [
+            241.67516816755435,
+            145.4878483372002,
+            18.03279224461241,
+            20.735056651678317,
+            -0.7422714648830767
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.1
+    },
+    {
+        "frame_number": 91,
+        "timestamp": 1800.0,
+        "ellipse": [
+            241.6081465369328,
+            145.7541074621139,
+            17.73168138568817,
+            20.680937295345302,
+            -0.7316509237831618
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 92,
+        "timestamp": 1820.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.0,
+        "Velocity(y)": -3.12
+    },
+    {
+        "frame_number": 93,
+        "timestamp": 1840.0,
+        "ellipse": [
+            241.79116875735508,
+            145.30628199214996,
+            17.77502944915557,
+            20.820299373490805,
+            -0.6864031740602398
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.1
+    },
+    {
+        "frame_number": 94,
+        "timestamp": 1860.0,
+        "ellipse": [
+            241.5283670912382,
+            145.7939744592372,
+            21.15383014730046,
+            17.741112235028872,
+            0.7316589926942232
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.04,
+        "Velocity(y)": -0.02
+    },
+    {
+        "frame_number": 95,
+        "timestamp": 1880.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.04,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 96,
+        "timestamp": 1900.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 97,
+        "timestamp": 1920.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 98,
+        "timestamp": 1940.0000000000002,
+        "ellipse": [
+            241.59401032348114,
+            145.9917339398124,
+            17.829429791510435,
+            21.0321940927716,
+            -0.7010643253704296
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.12
+    },
+    {
+        "frame_number": 99,
+        "timestamp": 1960.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.0,
+        "Velocity(y)": -3.12
+    },
+    {
+        "frame_number": 100,
+        "timestamp": 1980.0000000000002,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 101,
+        "timestamp": 2000.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 102,
+        "timestamp": 2020.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 103,
+        "timestamp": 2040.0,
+        "ellipse": [
+            241.48866559268598,
+            145.92459826045535,
+            18.188945519623474,
+            20.3917655192672,
+            -0.6973317333751223
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.12
+    },
+    {
+        "frame_number": 104,
+        "timestamp": 2060.0,
+        "ellipse": [
+            241.49977746499619,
+            145.7623328198784,
+            20.70749871466913,
+            17.834482847597243,
+            0.7530050630696716
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.02,
+        "Velocity(y)": -0.04
+    },
+    {
+        "frame_number": 105,
+        "timestamp": 2080.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 106,
+        "timestamp": 2100.0,
+        "ellipse": [
+            241.44677585628813,
+            145.8635746938508,
+            20.878484679494992,
+            18.14195830423184,
+            0.7550182588681095
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.02,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 107,
+        "timestamp": 2120.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.02,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 108,
+        "timestamp": 2140.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 109,
+        "timestamp": 2160.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 110,
+        "timestamp": 2180.0,
+        "ellipse": [
+            240.80485467757418,
+            146.25281447053126,
+            17.981907400655682,
+            20.59982647775877,
+            -0.6599269180337055
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.12
+    },
+    {
+        "frame_number": 111,
+        "timestamp": 2200.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.12
+    },
+    {
+        "frame_number": 112,
+        "timestamp": 2220.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 113,
+        "timestamp": 2240.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 114,
+        "timestamp": 2260.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 115,
+        "timestamp": 2280.0000000000005,
+        "ellipse": [
+            240.44613492224414,
+            146.44256051961025,
+            18.503054942198666,
+            20.44110982950516,
+            -0.6982201154560757
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.12
+    },
+    {
+        "frame_number": 116,
+        "timestamp": 2300.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.12
+    },
+    {
+        "frame_number": 117,
+        "timestamp": 2320.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 118,
+        "timestamp": 2340.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 119,
+        "timestamp": 2360.0000000000005,
+        "ellipse": [
+            240.35775616872115,
+            147.26979906172147,
+            18.67295917551017,
+            20.819645642087657,
+            -0.7022243854064539
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.14
+    },
+    {
+        "frame_number": 120,
+        "timestamp": 2380.0,
+        "ellipse": [
+            239.99650724864958,
+            147.0756860225728,
+            18.364693409890183,
+            20.87725857769907,
+            -0.6932718971849845
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 121,
+        "timestamp": 2400.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.14
+    },
+    {
+        "frame_number": 122,
+        "timestamp": 2420.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 123,
+        "timestamp": 2440.0,
+        "ellipse": [
+            239.416966571554,
+            147.33669083682582,
+            18.848782501435814,
+            20.358070943544558,
+            -0.5881698403994396
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.14
+    },
+    {
+        "frame_number": 124,
+        "timestamp": 2460.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.14
+    },
+    {
+        "frame_number": 125,
+        "timestamp": 2480.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 126,
+        "timestamp": 2500.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 127,
+        "timestamp": 2520.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 128,
+        "timestamp": 2540.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 129,
+        "timestamp": 2560.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 130,
+        "timestamp": 2580.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 131,
+        "timestamp": 2600.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 132,
+        "timestamp": 2620.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 133,
+        "timestamp": 2640.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 134,
+        "timestamp": 2660.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 135,
+        "timestamp": 2680.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 136,
+        "timestamp": 2700.0,
+        "ellipse": [
+            237.27423184942282,
+            145.80341291153388,
+            17.971765179506175,
+            19.162427648235315,
+            -0.05663821620487668
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.92,
+        "Velocity(y)": 3.1
+    },
+    {
+        "frame_number": 137,
+        "timestamp": 2720.0,
+        "ellipse": [
+            237.41799985082375,
+            145.76069896056063,
+            18.286955106774936,
+            19.350243346108375,
+            -0.3195072874409298
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 138,
+        "timestamp": 2740.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.92,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 139,
+        "timestamp": 2760.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 140,
+        "timestamp": 2780.0000000000005,
+        "ellipse": [
+            237.0469079386764,
+            145.15446040112573,
+            18.33278853768657,
+            19.25509015471429,
+            -0.3572453159564205
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.92,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 141,
+        "timestamp": 2800.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.92,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 142,
+        "timestamp": 2820.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 143,
+        "timestamp": 2840.0000000000005,
+        "ellipse": [
+            237.84872581470086,
+            144.50702378194305,
+            17.27899920843545,
+            19.59420790640282,
+            -0.21426625009689612
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.92,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 144,
+        "timestamp": 2860.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.92,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 145,
+        "timestamp": 2880.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 146,
+        "timestamp": 2900.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 147,
+        "timestamp": 2920.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 148,
+        "timestamp": 2940.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 149,
+        "timestamp": 2960.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 150,
+        "timestamp": 2980.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 151,
+        "timestamp": 3000.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 152,
+        "timestamp": 3020.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 153,
+        "timestamp": 3040.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 154,
+        "timestamp": 3060.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 155,
+        "timestamp": 3080.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 156,
+        "timestamp": 3100.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 157,
+        "timestamp": 3120.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 158,
+        "timestamp": 3140.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 159,
+        "timestamp": 3160.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 160,
+        "timestamp": 3180.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 161,
+        "timestamp": 3200.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 162,
+        "timestamp": 3220.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 163,
+        "timestamp": 3240.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 164,
+        "timestamp": 3260.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 165,
+        "timestamp": 3280.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 166,
+        "timestamp": 3300.0000000000005,
+        "ellipse": [
+            239.50067532047765,
+            148.64938783746953,
+            17.310752453168448,
+            19.615092514021754,
+            -0.02345915420452948
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.16
+    },
+    {
+        "frame_number": 167,
+        "timestamp": 3320.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.16
+    },
+    {
+        "frame_number": 168,
+        "timestamp": 3340.0000000000005,
+        "ellipse": [
+            239.83023447173062,
+            148.33617241869678,
+            17.56190097167384,
+            20.345440308524992,
+            -0.30151933171570483
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.16
+    },
+    {
+        "frame_number": 169,
+        "timestamp": 3360.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.16
+    },
+    {
+        "frame_number": 170,
+        "timestamp": 3380.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 171,
+        "timestamp": 3400.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 172,
+        "timestamp": 3420.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 173,
+        "timestamp": 3440.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 174,
+        "timestamp": 3460.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 175,
+        "timestamp": 3480.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 176,
+        "timestamp": 3500.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 177,
+        "timestamp": 3520.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 178,
+        "timestamp": 3540.0,
+        "ellipse": [
+            238.45264558831616,
+            147.7515868472498,
+            17.879035736725026,
+            20.31476179436758,
+            -0.13764939008940952
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.94,
+        "Velocity(y)": 3.14
+    },
+    {
+        "frame_number": 179,
+        "timestamp": 3560.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.94,
+        "Velocity(y)": -3.14
+    },
+    {
+        "frame_number": 180,
+        "timestamp": 3580.0,
+        "ellipse": [
+            237.40316468568142,
+            144.11528554842005,
+            17.72603851751668,
+            18.280971042839983,
+            -0.048100012956403676
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.92,
+        "Velocity(y)": 3.06
+    },
+    {
+        "frame_number": 181,
+        "timestamp": 3600.0,
+        "ellipse": [
+            237.8804707371265,
+            144.16255268338318,
+            17.540804674833836,
+            18.874283824228144,
+            -0.43412213947789335
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 182,
+        "timestamp": 3620.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.92,
+        "Velocity(y)": -3.06
+    },
+    {
+        "frame_number": 183,
+        "timestamp": 3640.0,
+        "ellipse": [
+            237.8666315738519,
+            143.91756354113846,
+            18.075326660907066,
+            18.908487308664487,
+            -0.5637598739144901
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.92,
+        "Velocity(y)": 3.06
+    },
+    {
+        "frame_number": 184,
+        "timestamp": 3660.0,
+        "ellipse": [
+            237.9971020548159,
+            144.14820857201178,
+            17.854793708980694,
+            19.57496028830134,
+            -0.15546978264762013
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 185,
+        "timestamp": 3680.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.92,
+        "Velocity(y)": -3.06
+    },
+    {
+        "frame_number": 186,
+        "timestamp": 3700.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 187,
+        "timestamp": 3720.0,
+        "ellipse": [
+            237.98935865135985,
+            144.26722919459888,
+            18.440422364222304,
+            19.045713805184654,
+            -0.15384757537702093
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.94,
+        "Velocity(y)": 3.06
+    },
+    {
+        "frame_number": 188,
+        "timestamp": 3740.0,
+        "ellipse": [
+            238.24072435831386,
+            144.78404216153336,
+            18.38253306189357,
+            19.287853595024348,
+            -0.16059538580743518
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 189,
+        "timestamp": 3760.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.94,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 190,
+        "timestamp": 3780.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 191,
+        "timestamp": 3800.0000000000005,
+        "ellipse": [
+            237.82492562930207,
+            144.9190247619105,
+            18.11431309674012,
+            19.928745722596677,
+            -0.10364602189630995
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.92,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 192,
+        "timestamp": 3820.0000000000005,
+        "ellipse": [
+            238.05428487151386,
+            145.27815533114298,
+            18.286514049349943,
+            19.699913383111394,
+            0.027899510444213276
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.02,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 193,
+        "timestamp": 3840.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.94,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 194,
+        "timestamp": 3860.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 195,
+        "timestamp": 3880.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 196,
+        "timestamp": 3900.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 197,
+        "timestamp": 3920.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 198,
+        "timestamp": 3940.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 199,
+        "timestamp": 3960.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 200,
+        "timestamp": 3980.0,
+        "ellipse": [
+            237.77956142809816,
+            149.34453051972824,
+            17.782179587311862,
+            22.040034634361117,
+            0.028804444616123744
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.92,
+        "Velocity(y)": 3.2
+    },
+    {
+        "frame_number": 201,
+        "timestamp": 4000.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.92,
+        "Velocity(y)": -3.2
+    },
+    {
+        "frame_number": 202,
+        "timestamp": 4020.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 203,
+        "timestamp": 4040.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 204,
+        "timestamp": 4060.0000000000005,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 205,
+        "timestamp": 4080.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 206,
+        "timestamp": 4100.000000000001,
+        "ellipse": [
+            238.51860083550793,
+            149.1770307048485,
+            18.647539065129276,
+            21.236366713237725,
+            -0.32008797213138757
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.94,
+        "Velocity(y)": 3.18
+    },
+    {
+        "frame_number": 207,
+        "timestamp": 4120.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.94,
+        "Velocity(y)": -3.18
+    },
+    {
+        "frame_number": 208,
+        "timestamp": 4140.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 209,
+        "timestamp": 4160.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 210,
+        "timestamp": 4180.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 211,
+        "timestamp": 4200.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 212,
+        "timestamp": 4220.000000000001,
+        "ellipse": [
+            239.27677174253958,
+            148.31788120513392,
+            17.966286516555204,
+            21.00602328431626,
+            -0.19412938247532835
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.16
+    },
+    {
+        "frame_number": 213,
+        "timestamp": 4240.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.16
+    },
+    {
+        "frame_number": 214,
+        "timestamp": 4260.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 215,
+        "timestamp": 4280.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 216,
+        "timestamp": 4300.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 217,
+        "timestamp": 4320.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 218,
+        "timestamp": 4340.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 219,
+        "timestamp": 4360.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 220,
+        "timestamp": 4380.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 221,
+        "timestamp": 4400.0,
+        "ellipse": [
+            239.7326482917723,
+            148.3939231903208,
+            17.427719135795936,
+            21.58191338365244,
+            -0.2282548106208159
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.18
+    },
+    {
+        "frame_number": 222,
+        "timestamp": 4420.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.18
+    },
+    {
+        "frame_number": 223,
+        "timestamp": 4440.0,
+        "ellipse": [
+            239.93196350499773,
+            148.26381687906476,
+            18.043202266886436,
+            20.646620774921324,
+            -0.3636711640155041
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.16
+    },
+    {
+        "frame_number": 224,
+        "timestamp": 4460.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.16
+    },
+    {
+        "frame_number": 225,
+        "timestamp": 4480.0,
+        "ellipse": [
+            240.1690974693045,
+            148.35950646133506,
+            18.049689777775065,
+            20.30120716638436,
+            -0.24658302644458813
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.16
+    },
+    {
+        "frame_number": 226,
+        "timestamp": 4500.0,
+        "ellipse": [
+            240.15827829611237,
+            149.04582126643655,
+            17.954202870621017,
+            21.277365288111344,
+            -0.22566153401602113
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 227,
+        "timestamp": 4520.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.18
+    },
+    {
+        "frame_number": 228,
+        "timestamp": 4540.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 229,
+        "timestamp": 4560.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 230,
+        "timestamp": 4580.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 231,
+        "timestamp": 4600.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 232,
+        "timestamp": 4620.0,
+        "ellipse": [
+            240.10194616093426,
+            149.26118544659718,
+            17.663537386687477,
+            21.85364363233492,
+            -0.24561418015922276
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.2
+    },
+    {
+        "frame_number": 233,
+        "timestamp": 4640.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.2
+    },
+    {
+        "frame_number": 234,
+        "timestamp": 4660.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 235,
+        "timestamp": 4680.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 236,
+        "timestamp": 4700.0,
+        "ellipse": [
+            240.68173479796675,
+            149.204655529204,
+            18.338983593946306,
+            20.75342737987798,
+            -0.4044194064930481
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.18
+    },
+    {
+        "frame_number": 237,
+        "timestamp": 4720.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.18
+    },
+    {
+        "frame_number": 238,
+        "timestamp": 4740.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 239,
+        "timestamp": 4760.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 240,
+        "timestamp": 4780.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 241,
+        "timestamp": 4800.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 242,
+        "timestamp": 4820.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 243,
+        "timestamp": 4840.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 244,
+        "timestamp": 4860.0,
+        "ellipse": [
+            240.37015286481312,
+            148.70984188404708,
+            18.229891355892388,
+            21.2132148158865,
+            -0.2221661581336878
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.18
+    },
+    {
+        "frame_number": 245,
+        "timestamp": 4880.0,
+        "ellipse": [
+            240.17721093540442,
+            149.14713869700597,
+            17.89853859659672,
+            22.278036216310035,
+            -0.13506792059769754
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 246,
+        "timestamp": 4900.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.2
+    },
+    {
+        "frame_number": 247,
+        "timestamp": 4920.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 248,
+        "timestamp": 4940.0,
+        "ellipse": [
+            239.8210762599599,
+            145.48787335394573,
+            17.703797829737393,
+            19.249609434293294,
+            -0.2663076771914383
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.1
+    },
+    {
+        "frame_number": 249,
+        "timestamp": 4960.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 250,
+        "timestamp": 4980.0,
+        "ellipse": [
+            239.9000605495647,
+            145.20555498401202,
+            17.548668170431448,
+            19.43368847153073,
+            -0.5139108214910318
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 251,
+        "timestamp": 5000.0,
+        "ellipse": [
+            239.9803647774942,
+            145.25581043380342,
+            17.700168710267622,
+            19.073413206530105,
+            -0.3552864273138121
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 252,
+        "timestamp": 5020.000000000001,
+        "ellipse": [
+            239.97603256810976,
+            145.46102347889718,
+            17.606971016612004,
+            19.455780535642216,
+            -0.31803137450570285
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.02
+    },
+    {
+        "frame_number": 253,
+        "timestamp": 5040.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 254,
+        "timestamp": 5060.000000000001,
+        "ellipse": [
+            240.40834895694567,
+            145.32400124999702,
+            18.070028891589256,
+            19.038233477351408,
+            -0.26565023804820637
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 255,
+        "timestamp": 5080.0,
+        "ellipse": [
+            240.19362785306188,
+            145.26486274181372,
+            17.83993702588306,
+            18.846876779691083,
+            -0.36824803612525614
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 256,
+        "timestamp": 5100.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 257,
+        "timestamp": 5120.0,
+        "ellipse": [
+            240.1998747515714,
+            145.4819657429685,
+            17.867601754792265,
+            19.27241077710976,
+            -0.5752705843571791
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.1
+    },
+    {
+        "frame_number": 258,
+        "timestamp": 5140.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 259,
+        "timestamp": 5160.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 260,
+        "timestamp": 5180.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 261,
+        "timestamp": 5200.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 262,
+        "timestamp": 5220.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 263,
+        "timestamp": 5240.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 264,
+        "timestamp": 5260.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 265,
+        "timestamp": 5280.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 266,
+        "timestamp": 5300.0,
+        "ellipse": [
+            240.8907393442188,
+            147.88640469802687,
+            17.619170864982554,
+            20.708590916345397,
+            -0.33912487661440205
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.16
+    },
+    {
+        "frame_number": 267,
+        "timestamp": 5320.0,
+        "ellipse": [
+            240.3711495337229,
+            147.92350560967,
+            17.66438885420721,
+            21.03065245636216,
+            -0.28601339913000795
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 268,
+        "timestamp": 5340.0,
+        "ellipse": [
+            240.59085638871804,
+            147.9124566282185,
+            17.91300016238859,
+            20.9340998835903,
+            -0.3720754552132849
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 269,
+        "timestamp": 5360.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.16
+    },
+    {
+        "frame_number": 270,
+        "timestamp": 5380.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 271,
+        "timestamp": 5400.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 272,
+        "timestamp": 5420.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 273,
+        "timestamp": 5440.0,
+        "ellipse": [
+            240.88153689347706,
+            148.09056927650542,
+            17.84446042372681,
+            20.604474159931147,
+            -0.3056345537868867
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.98,
+        "Velocity(y)": 3.16
+    },
+    {
+        "frame_number": 274,
+        "timestamp": 5460.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.16
+    },
+    {
+        "frame_number": 275,
+        "timestamp": 5480.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 276,
+        "timestamp": 5500.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 277,
+        "timestamp": 5520.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 278,
+        "timestamp": 5540.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 279,
+        "timestamp": 5560.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 280,
+        "timestamp": 5580.0,
+        "ellipse": [
+            241.28943133784153,
+            149.53920105204455,
+            18.091064428046707,
+            21.377607931445826,
+            -0.3645824383022072
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.2
+    },
+    {
+        "frame_number": 281,
+        "timestamp": 5600.000000000001,
+        "ellipse": [
+            240.9203988715095,
+            149.04354796686923,
+            17.974108328846004,
+            21.268168623110665,
+            -0.23410854367438608
+        ],
+        "blinks": 0,
+        "Velocity(x)": -0.02,
+        "Velocity(y)": -0.02
+    },
+    {
+        "frame_number": 282,
+        "timestamp": 5620.0,
+        "ellipse": [
+            240.62735641012168,
+            149.16910901289842,
+            17.702464701353893,
+            20.85430806499788,
+            -0.2187540385648341
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 283,
+        "timestamp": 5640.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.98,
+        "Velocity(y)": -3.18
+    },
+    {
+        "frame_number": 284,
+        "timestamp": 5660.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 285,
+        "timestamp": 5680.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 286,
+        "timestamp": 5700.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 287,
+        "timestamp": 5720.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 288,
+        "timestamp": 5740.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 289,
+        "timestamp": 5760.000000000001,
+        "ellipse": [
+            241.67862745895548,
+            149.2507037728596,
+            18.41939211084268,
+            20.834528950566497,
+            -0.4480518360643561
+        ],
+        "blinks": 0,
+        "Velocity(x)": 5.0,
+        "Velocity(y)": 3.18
+    },
+    {
+        "frame_number": 290,
+        "timestamp": 5780.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -5.0,
+        "Velocity(y)": -3.18
+    },
+    {
+        "frame_number": 291,
+        "timestamp": 5800.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 292,
+        "timestamp": 5820.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 293,
+        "timestamp": 5840.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 294,
+        "timestamp": 5860.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 295,
+        "timestamp": 5880.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 296,
+        "timestamp": 5900.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 297,
+        "timestamp": 5920.0,
+        "ellipse": [
+            240.00469696099177,
+            144.8253271056471,
+            16.77034630543503,
+            19.991142228861303,
+            -0.3251292109893675
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 298,
+        "timestamp": 5940.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 299,
+        "timestamp": 5960.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 300,
+        "timestamp": 5980.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 301,
+        "timestamp": 6000.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 302,
+        "timestamp": 6020.000000000001,
+        "ellipse": [
+            239.69487106657624,
+            145.05350392894505,
+            17.075667637652362,
+            19.78446940473344,
+            -0.08852555677483916
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 303,
+        "timestamp": 6040.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 304,
+        "timestamp": 6060.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 305,
+        "timestamp": 6080.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 306,
+        "timestamp": 6100.000000000001,
+        "ellipse": [
+            240.37557634824566,
+            144.81771050070284,
+            16.95121023417351,
+            20.563041675332567,
+            -0.17408696507870086
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.1
+    },
+    {
+        "frame_number": 307,
+        "timestamp": 6120.0,
+        "ellipse": [
+            240.37743281539397,
+            144.99112217513382,
+            16.89859959914783,
+            20.086394658889162,
+            -0.23111240915468745
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 308,
+        "timestamp": 6140.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.96,
+        "Velocity(y)": -3.1
+    },
+    {
+        "frame_number": 309,
+        "timestamp": 6160.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 310,
+        "timestamp": 6180.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 311,
+        "timestamp": 6200.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 312,
+        "timestamp": 6220.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 313,
+        "timestamp": 6240.0,
+        "ellipse": [
+            237.06958595767873,
+            147.61531752071704,
+            16.61443496557282,
+            20.066888898706086,
+            0.0968572138871066
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.9,
+        "Velocity(y)": 3.14
+    },
+    {
+        "frame_number": 314,
+        "timestamp": 6260.000000000001,
+        "ellipse": [
+            236.8693708050915,
+            147.50928853698068,
+            16.986607585429525,
+            20.42636422451266,
+            0.1129605906389997
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 315,
+        "timestamp": 6280.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.9,
+        "Velocity(y)": -3.14
+    },
+    {
+        "frame_number": 316,
+        "timestamp": 6300.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 317,
+        "timestamp": 6320.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 318,
+        "timestamp": 6340.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 319,
+        "timestamp": 6360.0,
+        "ellipse": [
+            236.31284026895685,
+            148.02582046315626,
+            17.949286077097714,
+            19.821720311632397,
+            0.09727490177118867
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.9,
+        "Velocity(y)": 3.14
+    },
+    {
+        "frame_number": 320,
+        "timestamp": 6380.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.9,
+        "Velocity(y)": -3.14
+    },
+    {
+        "frame_number": 321,
+        "timestamp": 6400.0,
+        "ellipse": [
+            236.89972904749507,
+            147.741114584059,
+            17.698750133284733,
+            20.58877822638493,
+            0.0394548741217101
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.9,
+        "Velocity(y)": 3.16
+    },
+    {
+        "frame_number": 322,
+        "timestamp": 6420.0,
+        "ellipse": [
+            238.01627811122643,
+            147.31932684930712,
+            18.004727835248648,
+            20.175957718780523,
+            -0.0412151252335031
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.04,
+        "Velocity(y)": -0.02
+    },
+    {
+        "frame_number": 323,
+        "timestamp": 6440.0,
+        "ellipse": [
+            237.72741701981664,
+            147.49328684014526,
+            17.41587630320536,
+            20.578723832690024,
+            -0.09239642210896447
+        ],
+        "blinks": 0,
+        "Velocity(x)": -0.02,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 324,
+        "timestamp": 6460.0,
+        "ellipse": [
+            237.53149242388892,
+            147.5817856036491,
+            17.533088922338607,
+            20.35079942485815,
+            -0.002905358819718879
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 325,
+        "timestamp": 6480.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.92,
+        "Velocity(y)": -3.14
+    },
+    {
+        "frame_number": 326,
+        "timestamp": 6500.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 327,
+        "timestamp": 6520.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 328,
+        "timestamp": 6540.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 329,
+        "timestamp": 6560.000000000001,
+        "ellipse": [
+            236.65317258450898,
+            145.2830182920164,
+            18.041755741336022,
+            19.420860519086453,
+            -0.15022758371423695
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.9,
+        "Velocity(y)": 3.08
+    },
+    {
+        "frame_number": 330,
+        "timestamp": 6580.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": -4.9,
+        "Velocity(y)": -3.08
+    },
+    {
+        "frame_number": 331,
+        "timestamp": 6600.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 332,
+        "timestamp": 6620.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 333,
+        "timestamp": 6640.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 334,
+        "timestamp": 6660.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 335,
+        "timestamp": 6680.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 336,
+        "timestamp": 6700.0,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 337,
+        "timestamp": 6720.000000000001,
+        "ellipse": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "blinks": 0,
+        "Velocity(x)": 0.0,
+        "Velocity(y)": 0.0
+    },
+    {
+        "frame_number": 338,
+        "timestamp": 6740.0,
+        "ellipse": [
+            239.59288954257613,
+            141.80367940717605,
+            17.433616639173547,
+            19.290283100303373,
+            -0.4943343433954427
+        ],
+        "blinks": 0,
+        "Velocity(x)": 4.96,
+        "Velocity(y)": 3.02
+    }
+]

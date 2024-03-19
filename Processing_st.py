@@ -75,7 +75,7 @@ def fit_rotated_ellipse(data):
     ellipse_model = lambda x,y : a*x**2 + b*x*y + c*y**2 + d*x + e*y + f
 
     error_sum = np.sum([ellipse_model(x,y) for x,y in data])
-    print('fitting error = %.3f' % (error_sum))
+    #print('fitting error = %.3f' % (error_sum))
 
     return (cx,cy,w,h,theta)
 
@@ -191,6 +191,54 @@ def calculate_deviation(values, num_frames):
             previous_values.pop(0)
 
     return deviations
+
+def calculate_velocity(object_data, prev_object_data, frame_rate):
+  """
+  This function calculates the velocity of an object in pixels per frame.
+
+  Args:
+      object_data: A dictionary containing the current object data (x, y, width, height, angle).
+      prev_object_data: A dictionary containing the previous object data (from the previous frame).
+      frame_rate: The frame rate of the video.
+
+  Returns:
+      A dictionary containing the velocity in x and y directions (vx, vy) in pixels per frame.
+  """
+  # Check if previous data is available
+  if not prev_object_data:
+    return {"vx": 0, "vy": 0}
+
+  center_x = int(object_data[0] + object_data[2] / 2)
+  center_y = int(object_data[1] + object_data[3] / 2)
+  prev_center_x = int(prev_object_data[0] + prev_object_data[2] / 2)
+  prev_center_y = int(prev_object_data[1] + prev_object_data[3] / 2)
+
+  # Calculate velocity in x and y directions (pixels per frame)
+  vx = (center_x - prev_center_x) / frame_rate
+  vy = (center_y - prev_center_y) / frame_rate
+
+  return {"vx": vx, "vy": vy}
+def draw_velocity_arrow(frame, object_data, velocity, scale=10):
+  """
+  This function draws an arrow on a frame to represent the object's velocity.
+
+  Args:
+      frame: The frame image from the video.
+      object_data: A dictionary containing object data (x, y, width, height, angle).
+      velocity: A dictionary containing velocity data (vx, vy) in pixels per frame.
+      scale: A factor to scale the arrow length for better visualization (optional).
+  """
+  if object_data and velocity:
+    # Calculate arrow end point based on object center and scaled velocity
+    arrow_x = int(object_data[0] + velocity["vx"] * scale)
+    arrow_y = int(object_data[1] + velocity["vy"] * scale)
+    end_point = (arrow_x, arrow_y)
+
+
+    # Draw arrow line using cv2.arrowedLine
+    cv2.arrowedLine(frame, (int(object_data[0]), int(object_data[1])), end_point,
+                    (0, 0, 255), 2)  # Color: Blue
+filename = "00"
 def main():
     st.title("Video Processing with Streamlit and OpenCV")
 
@@ -210,7 +258,12 @@ def main():
     
 
     if video_file is not None and csv_file is not None:
+        global temp_file_result,filename
+        #temp_file_result = os.path.splitext(video_file.name)[0]
+        temp_file_result = "infered_"+video_file.name
         
+        
+
         # Read the video using OpenCV
         write_bytesio_to_file(temp_file_to_save, video_file)
         write_bytesio_to_file(temp_csv_file, csv_file)
@@ -305,7 +358,7 @@ def process_csv(csv_file):
     except Exception as e:
         print(f"An error occurred while processing {csv_file}: {e}")
         return None
-def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./"):
+def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./",filename="00"):
     num_dicts = len(data)
     if num_dicts == 0:
         return {"number of frames": nof, "number of frames per second": 0, "ellipse average": None}
@@ -321,10 +374,10 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./"):
     for entry in data:
         ellipse = entry['ellipse']
         # Check if the ellipse is a tuple
-        if isinstance(ellipse, tuple):
-            x1, y1 = ellipse[0]
-            x2, y2 = ellipse[1]
-            radius = ellipse[2]
+        if isinstance(ellipse, list):
+            x1, y1 = ellipse[0],ellipse[1]
+            x2, y2 = ellipse[2], ellipse[3]
+            radius = ellipse[4]
             sum_x1 += x1
             sum_y1 += y1
             sum_x2 += x2
@@ -353,10 +406,10 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./"):
                }
 
     if save:
-        with open(output_path+"\summary.json", "w") as f:
+        with open(output_path+f"\outp\summary_{filename}.json", "w") as f:
             json.dump(summary, f)
 
-    return output_path+"\summary.json"
+    return output_path+f"\outp\summary_{filename}.json"
 def calculate_average_deviation(frame_centers, block_size):
     average_deviations_x = []
     average_deviations_y = []
@@ -386,6 +439,8 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
 
     model_path = "blink_detection_model_100Epochs.h5"
     model = load_model(model_path)
+    prev_object_data = None
+
     # write_bytesio_to_file(temp_file_to_save, video_file)
     
     cap = cv2.VideoCapture(temp_file_to_save)
@@ -399,7 +454,7 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
     fps = cap.get(cv2.CAP_PROP_FPS)
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-    out_vid = cv2.VideoWriter(temp_file_result, fourcc, fps, (width, height))
+    out_vid = cv2.VideoWriter("./outp/"+temp_file_result, fourcc, fps, (width, height))
 
     progress_text = f"Infering using {model_path} with parameters: {circ_thresh,bin_thresh,min_max_values[0],min_max_values[1]}"
     my_bar = st.progress(0, text=progress_text)
@@ -453,16 +508,22 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
             is_blinking = False
         
         #print(cnt)
-        if cnt:
+        if all(element != 0 for element in cnt):
             data = {"Frame#":frame_counter,"pupilDetected": True,"Ellipse_Size":cnt[1],"Ellipse_Position_center":cnt[0],"Ellipse_Angle":cnt[2],"Blinks":blinks}
         else:
             data = {"Frame#":frame_counter,"pupilDetected": False,"Ellipse_Size":0,"Ellipse_Position_center":0,"Ellipse_Angle":0,"Blinks":blinks}
         
+        
+        object_data = cnt
+        velocity = calculate_velocity(object_data, prev_object_data, fps)
+            
         frame_metadata = {
             'frame_number': int(cap.get(cv2.CAP_PROP_POS_FRAMES)),
             'timestamp': cap.get(cv2.CAP_PROP_POS_MSEC),
             'ellipse': cnt,
-            "blinks": blinks
+            "blinks": blinks,
+            "Velocity(x)": velocity["vx"],
+            "Velocity(y)": velocity["vy"]
         }
         frame_metadata_list.append(frame_metadata)
         # with open(data_file_path, mode, newline='') as csvfile:
@@ -480,6 +541,7 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
         #     csv_writer.writerow(data)
         out_vid.write(frame)
         my_bar.progress(int((frame_num/total_frames)*100), text=progress_text)
+        prev_object_data = cnt
     #cnts
     # df = pd.DataFrame({'ellipse [x , y]':cnts})
     # st.table(df)
@@ -491,7 +553,8 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
     file_path = "full_data.json"
     with open(file_path, "w") as json_file:
         json.dump(frame_metadata_list, json_file, indent=4)
-    json_temp = compute_summary(frame_metadata_list,total_frames,temp_csv_file,save="True")
+    
+    json_temp = compute_summary(frame_metadata_list,total_frames,temp_csv_file,save="True",filename=os.path.splitext(temp_file_result)[0])
     json_file = open(json_temp, 'rb')
     json_bytes = json_file.read()
     json_file.close()
@@ -499,24 +562,25 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
     csv_link = f'<a href="data:application/json;base64,{json_b64}" download="processed_data.json">Download CSV</a>'
     st.markdown(csv_link, unsafe_allow_html=True)
     # Download button for processed video
-    st.markdown(
-        f"Download processed video",
-        unsafe_allow_html=True,
-    )
+    # st.markdown(
+    #     f"Download processed video",
+    #     unsafe_allow_html=True,
+    # )
     try:
         video_file = open(temp_file_result, 'rb')
         video_bytes = video_file.read()
         video_file.close()
         video_b64 = base64.b64encode(video_bytes).decode()
-        video_link = f'<a href="data:video/mp4;base64,{video_b64}" download="temp_file_2.mp4">Download Video</a>'
+        path_to_file = "./outp/"
+        video_link = f'<a href="data:video/mp4;base64,{video_b64}" download="./outp/infered_test.mp4">Download Video</a>'
         st.markdown(video_link, unsafe_allow_html=True)
-    except: "Error"
-    if st.button("Go Back"):
-        st.empty()
-        os.remove(data_file_path)
-        os.remove(temp_file_result)
-        os.remove(temp_file_to_save)
-        main()
+    except Exception as e: print(e)
+    # if st.button("Go Back"):
+    #     st.empty()
+    #     os.remove(data_file_path)
+    #     os.remove(temp_file_result)
+    #     os.remove(temp_file_to_save)
+    #     main()
 
     # Add your logic for displaying the results here
 if __name__ == "__main__":
