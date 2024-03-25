@@ -572,7 +572,7 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
         video_file.close()
         video_b64 = base64.b64encode(video_bytes).decode()
         path_to_file = "./outp/"
-        video_link = f'<a href="data:video/mp4;base64,{video_b64}" download="./outp/infered_test.mp4">Download Video</a>'
+        video_link = f'<a href="data:video/mp4;base64,{video_b64}" download="outp/infered_test.mp4">Download Video</a>'
         st.markdown(video_link, unsafe_allow_html=True)
     except Exception as e: print(e)
     # if st.button("Go Back"):
