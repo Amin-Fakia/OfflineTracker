@@ -424,10 +424,10 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./",filena
                }
 
     if save:
-        with open(output_path+f"\outp\summary_{filename}.json", "w") as f:
+        with open(output_path+f".\outp\summary_{filename}.json", "w") as f:
             json.dump(summary, f)
 
-    return output_path+f"\outp\summary_{filename}.json"
+    return output_path+f".\outp\summary_{filename}.json"
 def calculate_average_deviation(frame_centers, block_size):
     average_deviations_x = []
     average_deviations_y = []
