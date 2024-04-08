@@ -6,10 +6,12 @@ import os
 import time
 from tqdm import tqdm
 from tensorflow.keras.models import load_model
+from PIL import Image
 import csv
 import json
 import base64
 import pandas as pd
+from streamlit_drawable_canvas import st_canvas
 def ellipse_circumference(a, b):
     """
     Calculate the circumference of an ellipse.
@@ -62,7 +64,7 @@ def fit_rotated_ellipse(data):
     Y = np.mat(-1*xs**2)
     P= (J.T * J).I * J.T * Y
 
-    a = 1.0; b= P[0,0]; c= P[1,0]; d = P[2,0]; e= P[3,0]; f=P[4,0];
+    a = 1.0; b= P[0,0]; c= P[1,0]; d = P[2,0]; e= P[3,0]; f=P[4,0]
     theta = 0.5* np.arctan(b/(a-c))  
     
     cx = (2*c*d - b*e)/(b**2-4*a*c)
@@ -270,6 +272,7 @@ def main():
         video_capture = cv2.VideoCapture(temp_file_to_save)
 
         total_frames = int(video_capture.get(cv2.CAP_PROP_FRAME_COUNT))
+       
 
         # Frame selection slider
         selected_frame = st.sidebar.slider("Select a frame", 1, total_frames, 1)
@@ -278,10 +281,12 @@ def main():
         processing_step1 = st.sidebar.slider("Circularity Threshold", 0.0, 1.0, 0.5, 0.01)
         processing_step2 = st.sidebar.slider("Binary Threshold", 1, 255, 40,1)
 
-     
+
         # Process the selected frame
         video_capture.set(cv2.CAP_PROP_POS_FRAMES, selected_frame - 1)
         ret, frame = video_capture.read()
+        frame = cv2.rotate(frame,cv2.ROTATE_90_COUNTERCLOCKWISE)
+        h,w,_ = frame.shape
 
      
         
@@ -291,11 +296,15 @@ def main():
         st.header("Frames")
         col1, col2 = st.columns(2)
 
+        
+
         with col1:
             st.image(frame, caption="Unprocessed", use_column_width=True)
+            
 
         with col2:
             processed_frame,cnt = process_frame(frame, processing_step1, processing_step2)
+         
             st.image(processed_frame, caption="Processed", use_column_width=True)
         
         #min_max_values= st.select_slider("Select a minimum-maximum Threshold",options=range(0,1000),value=(0,50))
@@ -369,7 +378,7 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./",filena
     fps = num_frames / data[-1]['timestamp']
     
     # Initialize variables to hold sums of coordinates
-    sum_x1, sum_y1, sum_x2, sum_y2, sum_radius = 0, 0, 0, 0, 0
+    sum_x1, sum_y1, sum_x2, sum_y2, sum_radius,sum_vx,sum_vy = 0, 0, 0, 0, 0,0,0
 
     for entry in data:
         ellipse = entry['ellipse']
@@ -383,6 +392,9 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./",filena
             sum_x2 += x2
             sum_y2 += y2
             sum_radius += radius
+        vx,vy = entry["Velocity(x)"],entry["Velocity(y)"]
+        sum_vx+=vx
+        sum_vy+=vy
 
     # Calculate average coordinates and radius
     average_x1 = sum_x1 / num_dicts
@@ -390,6 +402,8 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./",filena
     average_x2 = sum_x2 / num_dicts
     average_y2 = sum_y2 / num_dicts
     average_radius = sum_radius / num_dicts
+    average_vx = sum_vx /num_dicts
+    average_vy = sum_vy /num_dicts
 
     average_ellipse = ((average_x1, average_y1), (average_x2, average_y2), average_radius)
     summary = {"number of frames": nof, "number of frames per second": fps, "ellipse average": average_ellipse}
@@ -400,9 +414,13 @@ def compute_summary(data,nof=0,csv_file=None, save=False,output_path="./",filena
         if heartbeat_values:
             average_heartbeat = sum(heartbeat_values) / len(heartbeat_values)
 
+
+
     summary = {"number of frames": nof, "number of frames per second": fps,
                "ellipse average": average_ellipse, "average heartbeat": average_heartbeat,
-               "blinks": data[-1]["blinks"]
+               "blinks": data[-1]["blinks"],
+               "Average Velocity (X)": average_vx,
+               "Average Velocity (Y)": average_vy
                }
 
     if save:
@@ -433,6 +451,29 @@ def calculate_average_deviation(frame_centers, block_size):
         average_deviations_y.append(average_deviation_y)
     
     return average_deviations_x, average_deviations_y
+def determine_block(image, roi, object_x, object_y):
+    # Extract ROI coordinates
+    x, y, w, h = roi
+    roi_center_x = x + w // 2
+    roi_center_y = y + h // 2
+
+    # Define quadrants
+    quadrants = {
+        "top-left": (x, y, roi_center_x, roi_center_y),
+        "top-right": (roi_center_x, y, x + w, roi_center_y),
+        "bottom-left": (x, roi_center_y, roi_center_x, y + h),
+        "bottom-right": (roi_center_x, roi_center_y, x + w, y + h)
+    }
+
+    # Check if the object is inside the ROI
+    if x <= object_x <= x + w and y <= object_y <= y + h:
+        # Determine which quadrant the object belongs to
+        for quadrant, (start_x, start_y, end_x, end_y) in quadrants.items():
+            if start_x <= object_x <= end_x and start_y <= object_y <= end_y:
+                return quadrant
+    
+    # If the object is not inside the ROI
+    return "Object not inside ROI"
 
 def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file):
     st.title("Pupil and Parameter Caption")
@@ -561,13 +602,16 @@ def results_page(min_max_values,video,circ_thresh,bin_thresh,video_file,csv_file
     json_b64 = base64.b64encode(json_bytes).decode()
     csv_link = f'<a href="data:application/json;base64,{json_b64}" download="processed_data.json">Download CSV</a>'
     st.markdown(csv_link, unsafe_allow_html=True)
+
+
+
     # Download button for processed video
     # st.markdown(
     #     f"Download processed video",
     #     unsafe_allow_html=True,
     # )
     try:
-        video_file = open(temp_file_result, 'rb')
+        video_file = open("outp/"+temp_file_result, 'rb')
         video_bytes = video_file.read()
         video_file.close()
         video_b64 = base64.b64encode(video_bytes).decode()
