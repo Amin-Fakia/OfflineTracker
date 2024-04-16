@@ -250,10 +250,24 @@ def main():
 
     # Upload CSV files
     with coll1:
-        video_file = st.file_uploader("Upload a video file", type=["mp4", "avi", "mkv"])
-
+        st.header("Video Data")
+        video_file = st.file_uploader("Upload a video file", type=["mp4", "avi", "mkv"], key="video")
+        # Display the video immediately after uploading
+        if video_file is not None:
+            st.session_state.video_data = video_file
+            st.video(video_file)
     with coll2:
+        st.header("CSV Data")
         csv_file = st.file_uploader("Upload CSV",type=["csv"])
+        if csv_file is not None:
+            df = pd.read_csv(csv_file)
+            st.session_state.csv_file = df
+            st.dataframe(df)
+    # with coll1:
+    #     video_file = st.file_uploader("Upload a video file", type=["mp4", "avi", "mkv"])
+
+    # with coll2:
+    #     csv_file = st.file_uploader("Upload CSV",type=["csv"])
 
     # Upload video file
     
